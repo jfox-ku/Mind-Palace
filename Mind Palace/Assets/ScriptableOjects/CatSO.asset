@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f9e429d86ce6145bcf4dc268e48e0a, type: 3}
+  m_Name: CatSO
+  m_EditorClassIdentifier: 
+  uniqName: cat_right_tilt
+  uniqSprite: {fileID: 2599807710885882720, guid: 0d57388d90ad850428a52bb8932f389c, type: 3}

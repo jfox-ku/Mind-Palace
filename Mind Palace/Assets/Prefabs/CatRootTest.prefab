@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3898075205186372100}
   - component: {fileID: 3898075205186372103}
   - component: {fileID: 3898075205186372102}
-  - component: {fileID: 3898075205186372101}
   - component: {fileID: 3898075205186372106}
   m_Layer: 5
   m_Name: CatRootTest
@@ -90,20 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975e384b30fc8614b95b8e0645d7ad8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myObject: {fileID: 0}
+  myObject: {fileID: 3898075205186372106}
   rootObject: {fileID: 3898075205186372097}
---- !u!114 &3898075205186372101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3898075205186372096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c664f507c83ecae4f95e0501e04df954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3898075205186372106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,3 +103,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa66f65f7ff8594ca5532d6275ea2a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasMenuOpen: 0
+  NameHdbl: 

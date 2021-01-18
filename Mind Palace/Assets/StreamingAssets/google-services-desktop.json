@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159010284490",
+    "project_id": "mind-palace-ku2020",
+    "storage_bucket": "mind-palace-ku2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159010284490:android:1c614890655697c71ea533",
+        "android_client_info": {
+          "package_name": "com.nemoworks.MindPalace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159010284490-jb81qjqcomqi2e3a98d6divftf6uomc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GTOQhfJ0VQMKpG-9fAL2myR9O-QGhQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159010284490-jb81qjqcomqi2e3a98d6divftf6uomc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

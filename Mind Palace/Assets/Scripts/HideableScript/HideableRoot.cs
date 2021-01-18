@@ -46,8 +46,12 @@ public class HideableRoot : MonoBehaviour
 
     public void LoadHideable() {
         HideableRoot data = SaveSystem.LoadHideable();
+        //Get transition data here
 
+        this.NameHdbl = data.NameHdbl;
+        //Get the image too?
 
+        //Where does this loaded data want to go to? Put it there with space manager.
     }
 
 

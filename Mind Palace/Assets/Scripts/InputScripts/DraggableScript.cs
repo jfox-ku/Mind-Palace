@@ -40,10 +40,14 @@ public class DraggableScript : MonoBehaviour, IPointerDownHandler,
     }
 
     public void OnPointerClick(PointerEventData eventData) {
+        if (ActionManager.GetInstance().pickActive) {
+            ActionManager.GetInstance().PutChoice(rootObject);
+        }
+
         if (dragging) return;
         if (eventData.pointerCurrentRaycast.gameObject == this.gameObject) {
             if (!myObject.hasMenuOpen) {
-                Debug.Log("Opening menu for " + this.gameObject.name);
+                //Debug.Log("Opening menu for " + this.gameObject.name);
                 HideableMenuManager.GetInstance().OpenForHideable(myObject);
                 myObject.hasMenuOpen = true;
             }
